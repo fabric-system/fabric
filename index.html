@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Download Fabric v0.1</title>
+  <meta name="description" content="Download Fabric v0.1 for Windows — FSM authoring for real hardware."/>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect fill='%233d8bfd' width='32' height='32' rx='6'/%3E%3C/svg%3E"/>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0f1419;
+      --card: #1a2332;
+      --text: #e7ecf3;
+      --muted: #8b9bb4;
+      --accent: #3d8bfd;
+      --accent-hover: #5aa0ff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      font-family: ui-sans-serif, system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      padding: 24px 16px;
+    }
+    main {
+      width: min(440px, 100%);
+      background: var(--card);
+      border-radius: 14px;
+      padding: 32px 26px 28px;
+    }
+    h1 { font-size: 1.45rem; margin: 0 0 8px; font-weight: 650; }
+    .lede { color: var(--muted); margin: 0 0 22px; line-height: 1.45; font-size: 0.95rem; }
+    .btn {
+      display: block;
+      text-align: center;
+      text-decoration: none;
+      background: var(--accent);
+      color: #fff;
+      font-weight: 650;
+      font-size: 1.05rem;
+      padding: 14px 18px;
+      border-radius: 10px;
+    }
+    .btn:hover { background: var(--accent-hover); }
+    .hint { color: var(--muted); font-size: 0.88rem; line-height: 1.5; margin: 18px 0 0; }
+    .hint strong { color: var(--text); font-weight: 600; }
+    .notes { margin: 16px 0 0; font-size: 0.85rem; }
+    .notes a { color: var(--accent); }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Fabric v0.1</h1>
+    <p class="lede">Windows app for authoring device programs and talking to real hardware. One installer — no Python, Git, or API-key setup.</p>
+    <a class="btn" href="https://github.com/fabric-system/fabric-core/releases/latest/download/Fabric-v01-Setup.exe">
+      Download Fabric v0.1
+    </a>
+    <p class="hint">
+      Windows only. Run <strong>Fabric-v01-Setup.exe</strong> as Administrator.
+      Windows SmartScreen may warn until the installer is code-signed — choose <strong>More info → Run anyway</strong> if you trust this download.
+    </p>
+    <p class="notes"><a href="https://github.com/fabric-system/fabric-core/releases/latest">Release notes</a></p>
+  </main>
+</body>
+</html>
